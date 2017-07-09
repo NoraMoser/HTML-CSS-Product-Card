@@ -1,0 +1,12 @@
+article {
+	width: 30%;
+	border: 1px lightblue solid;
+}
+
+img {
+	width: 50%;
+}
+
+.card {
+	border: 1px lightgray dotted;
+}
