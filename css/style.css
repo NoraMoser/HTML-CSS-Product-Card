@@ -5,8 +5,25 @@ article {
 
 img {
 	width: 50%;
+	display: block;
+	margin: auto;
 }
 
 .card {
 	border: 1px lightgray dotted;
+	text-align: center;
+}
+
+.description {
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+.size {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.footer {
+	font-size: 10px;
 }
