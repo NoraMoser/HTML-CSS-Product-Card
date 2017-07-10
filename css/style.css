@@ -5,8 +5,14 @@ article {
 
 img {
 	width: 50%;
+	height: 10%;
+	margin: auto;
 	display: block;
 	margin: auto;
+}
+
+.card2 {
+	margin-bottom: 19px;
 }
 
 .card {
@@ -26,4 +32,32 @@ img {
 
 .footer {
 	font-size: 10px;
+}
+
+.available {
+	background-color: gray;
+	color: yellow;
+}
+
+.Specifications{
+	margin-left: 10px;
+}
+
+.size {
+	margin-left: 15px;
+}
+
+.flex-container {
+	display: flex;
+	display: -webkit-flex;
+	width: 100%;
+	justify-content: center;
+	-webkit-justify-content: center;
+	flex-wrap: wrap;
+}
+
+.flex-item {
+	width: 30%;
+	margin: 10px;
+	flex-wrap: wrap;
 }
